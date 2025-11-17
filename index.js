@@ -75,7 +75,6 @@ Make names, addresses, and phone numbers international. Use diverse nationalitie
       generationConfig: {
         temperature: 0,
         responseMimeType: "application/json",
-        maxOutputTokens: 500, //
       },
     });
 
