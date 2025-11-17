@@ -9,7 +9,6 @@ app.use(express.json());
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
-// 🧠 Helper: Calls Gemini and returns generated autofill data
 async function generateAutofillData() {
   const url =
     "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" +
@@ -62,7 +61,7 @@ Fields:
   "comments": "optional note"
 }
 
-Make names, addresses, and phone numbers international. Use diverse nationalities. Generate data directly in JSON format.
+Make names, addresses, and phone numbers international. Use diverse nationalities and mix all asian and europe. Generate data directly in JSON format.
 `;
 
   try {
@@ -89,7 +88,6 @@ Make names, addresses, and phone numbers international. Use diverse nationalitie
   }
 }
 
-// 🌐 API endpoint that your Chrome extension will call
 app.post("/generate", async (req, res) => {
   const result = await generateAutofillData();
 
