@@ -26,7 +26,7 @@ Fields:
   "lastname": "last name",
   "fullname": "first middle last",
   "username": "8-12 chars, lowercase, numbers allowed",
-  "email": "valid email",
+  "email": "valid email" make it realistic with @gmail/yahoo/outlook and domain name matching the username,
   "password": "12-16 chars, mix letters/numbers/symbols, not 'password'", also maximize the securities by making is atleast 15 cha, with mixed character,
   "gender": "1 for female, 2 for male",
   "dob": "DD-MM-YYYY, age 18-60",
