@@ -20,7 +20,7 @@ Generate a realistic dummy user in JSON. Return ONLY JSON, no explanations.
 Fields:
 {
   "title": "Mr/Mrs/Ms/Dr",
-  "firstname": "first name",
+  "firstname": "first name", make name very world wide include afric, asian, europe not just europe and japan
   "middlename": "middle name",
   "middleinitial": "middle initial",
   "lastname": "last name",
